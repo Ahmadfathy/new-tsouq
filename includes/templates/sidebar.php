@@ -31,12 +31,6 @@
               <span class="sidebar-link">المنتجات</span>
             </a>
           </li>
-          <li class="list-group-item">
-            <a href="admin-categories.php">
-              <span class="icon float-left"><i class="fas fa-edit"></i></span>
-              <span class="sidebar-link">الاقسام</span>
-            </a>
-          </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">
             <a href="admin-notification.php">
               <span class="icon float-left"><i class="fas fa-edit"></i></span>
