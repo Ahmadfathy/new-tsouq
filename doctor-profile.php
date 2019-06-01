@@ -16,7 +16,7 @@
       <div class="col-12 col-sm-12 offset-sm-0 col-lg-10 offset-lg-1">
         <div class="inner__card shadow-sm">
           <div class="card-body">
-            <form class="" action="#" method="POST">
+            <form class="" action="javascript:void(0)" method="POST">
               <div class="form-row">
                 <div class="col-sm-3">
                   <div class="input-group">
@@ -76,39 +76,50 @@
     <div class="row my-4">
       <div class="col-sm-8">
         <div class="inner__card shadow-sm my-4">
-          <div class="card-body services-provider">
-            <div class="row text-center">
-              <div class="col-sm-6 offset-sm-3">
+          <div class="card-body profile-info">
+            <div class="row">
+              <div class="col-sm-3">
                 <div class="rounded-img">
                   <img src="<?php echo $img; ?>doc.jpg" alt="">
                 </div>
+              </div>
+              <div class="col-sm-9">
                 <div class="profile-details">
-                  <h5><a href="#">Dr. Ahmad Fathy Ayad</a></h5>
+                  <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
                   <p>Lorem ipsum dolor sit amet elit.</p>
-                  <div class="rating">
-                    <div class="stars">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+                  <div class="row">
+                    <div class="col-7">
+                      <div class="rating">
+                        <div class="stars">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <h6> <span>500</span> Person Rating This Doctor </h6>
+                      </div>
+                      <p class="text-primary profile-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Abbas El Aqqad, Nasr City, cairo
+                      </p>
                     </div>
-                    <h6> <span>500</span> Person Rating This Doctor </h6>
+                    <div class="col-5">
+                      <div class="text-right">
+                        <a href="javascript:void(0)"><img src="<?php echo $img; ?>g-map.png" width="40" alt=""></a>
+                        <h5 class="profile-price text-primary"> The Price : 500 Pound </h5>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 offset-sm-3">
-                <p class="text-primary profile-location">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Abbas El Aqqad, Nasr City, cairo
-                </p>
-              </div>
-              <div class="col-sm-3">
-                <div class="text-right">
-                  <a href="#"><img src="<?php echo $img; ?>g-map.png" width="40" alt=""></a>
-                </div>
-              </div>
             </div>
+          </div>
+        </div>
+        <div class="inner__card shadow-sm my-4">
+          <div class="card-body profile-desc">
+            <h5 class="text-primary box-title">Information About The Doctor</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam recusandae, saepe adipisci nostrum ducimus possimus hic deserunt, architecto dolorem quis voluptatem officiis ad provident debitis! Repellendus rem nihil nostrum laboriosam.</p>
           </div>
         </div>
         <div class="inner__card shadow-sm my-4">
@@ -131,7 +142,7 @@
             <h5 class="text-primary box-title">The Services:</h5>
             <ul class="list-unstyled">
               <li class="media">
-                <img src="<?php echo $img; ?>user.png" width="80" height="80" class="align-self-center mr-3" alt="...">
+                <img src="<?php echo $img; ?>user.png" style="width:80px ;height:80px" class="align-self-center mr-3" alt="...">
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 text-primary">Abdo Sha3ban</h5>
                   <div class="rates">
@@ -145,7 +156,7 @@
                 </div>
               </li>
               <li class="media my-4">
-                <img src="<?php echo $img; ?>user.png" width="80" height="80" class="align-self-center mr-3" alt="...">
+                <img src="<?php echo $img; ?>user.png" style="width:80px ;height:80px" class="align-self-center mr-3" alt="...">
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 text-primary">Abdo Sha3ban</h5>
                   <div class="rates">
@@ -159,7 +170,7 @@
                 </div>
               </li>
               <li class="media">
-                <img src="<?php echo $img; ?>user.png" width="80" height="80" class="align-self-center mr-3" alt="...">
+                <img src="<?php echo $img; ?>user.png" style="width:80px ;height:80px" class="align-self-center mr-3" alt="...">
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 text-primary">Abdo Sha3ban</h5>
                   <div class="rates">
@@ -182,94 +193,103 @@
             <div class="widget-title">
               <h4 class="rouded-border">Booking Now</h4>
             </div>
-            <form class="p-4" action="#" method="#">
+            <form class="p-4" action="javascript:void(0)" method="javascript:void(0)">
               <div class="form-row mb-3">
-                <div class="col-12">
-                  <div class="input-group">
-                    <textarea class="form-control form-control-lg" name="" id="" cols="30" rows="6" placeholder="About Your Problem?"></textarea>
-                  </div>
-                </div>
-              </div>
-              <div class="form-row mb-3">
-                <div class="col-12">
-                  <div class="input-group">
-                    <input class="form-control form-control-lg" id="" type="text" name="" aria-describedby="" placeholder="Address">
-                  </div>
-                </div>
-              </div>
-              <div class="form-row mb-3">
-                <div class="col-6">
-                  <div class="input-group">
-                    <input class="form-control form-control-lg" id="" type="text" name="" aria-describedby="" placeholder="Building Number">
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="input-group">
-                    <input class="form-control form-control-lg" id="" type="text" name="" aria-describedby="" placeholder="Floor Number">
-                  </div>
-                </div>
-              </div>
-              <div class="form-row mb-3">
+
                 <div class="input-group mb-3">
-                  <input class="form-control form-control-lg" id="" type="text" name="" aria-describedby="" placeholder="Appartment Number">
+                  <input class="form-control form-control-lg badges-input" id="Patient_name" type="text" name="" aria-describedby="Patient_name" placeholder="Patient Name">
+                </div>
+
+                <div class="input-group mb-3">
+                  <textarea class="form-control form-control-lg" name="" id="" cols="30" rows="6" placeholder="About Your Complain?"></textarea>
                 </div>
 
                 <div class="input-group mb-3">
                   <h5 class="white-color text-center p-1 width-100">Choose The Date</h5>
                 </div>
+
                 <div class="input-group mb-3">
                   <div class="owl-carousel owl-theme days-slider">
                     <div class="item">
                       <div class="day-block">
                         <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                          <li class="sp-day">Sunday</li>
+                          <li> <a href="javascript:void(0)">10 PM</a> </li>
+                          <li> <a href="javascript:void(0)">11 PM</a> </li>
+                          <li> <a href="javascript:void(0)">12 AM</a> </li>
+                          <li> <a href="javascript:void(0)">01 AM</a> </li>
                         </ul>
                       </div>
                     </div>
                     <div class="item">
                       <div class="day-block">
                         <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                          <li class="sp-day">Sunday</li>
+                          <li> <a href="javascript:void(0)">10 PM</a> </li>
+                          <li> <a href="javascript:void(0)">11 PM</a> </li>
+                          <li> <a href="javascript:void(0)">12 AM</a> </li>
+                          <li> <a href="javascript:void(0)">01 AM</a> </li>
                         </ul>
                       </div>
                     </div>
                     <div class="item">
                       <div class="day-block">
                         <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                          <li class="sp-day">Sunday</li>
+                          <li> <a href="javascript:void(0)">10 PM</a> </li>
+                          <li> <a href="javascript:void(0)">11 PM</a> </li>
+                          <li> <a href="javascript:void(0)">12 AM</a> </li>
+                          <li> <a href="javascript:void(0)">01 AM</a> </li>
                         </ul>
                       </div>
                     </div>
                     <div class="item">
                       <div class="day-block">
                         <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                          <li class="sp-day">Sunday</li>
+                          <li> <a href="javascript:void(0)">10 PM</a> </li>
+                          <li> <a href="javascript:void(0)">11 PM</a> </li>
+                          <li> <a href="javascript:void(0)">12 AM</a> </li>
+                          <li> <a href="javascript:void(0)">01 AM</a> </li>
                         </ul>
                       </div>
                     </div>
                     <div class="item">
                       <div class="day-block">
                         <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                          <li class="sp-day">Sunday</li>
+                          <li> <a href="javascript:void(0)">10 PM</a> </li>
+                          <li> <a href="javascript:void(0)">11 PM</a> </li>
+                          <li> <a href="javascript:void(0)">12 AM</a> </li>
+                          <li> <a href="javascript:void(0)">01 AM</a> </li>
                         </ul>
                       </div>
                     </div>
                     <div class="item">
                       <div class="day-block">
                         <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                          <li class="sp-day">Sunday</li>
+                          <li> <a href="javascript:void(0)">10 PM</a> </li>
+                          <li> <a href="javascript:void(0)">11 PM</a> </li>
+                          <li> <a href="javascript:void(0)">12 AM</a> </li>
+                          <li> <a href="javascript:void(0)">01 AM</a> </li>
                         </ul>
                       </div>
                     </div>
                     <div class="item">
                       <div class="day-block">
                         <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                          <li class="sp-day">Sunday</li>
+                          <li> <a href="javascript:void(0)">10 PM</a> </li>
+                          <li> <a href="javascript:void(0)">11 PM</a> </li>
+                          <li> <a href="javascript:void(0)">12 AM</a> </li>
+                          <li> <a href="javascript:void(0)">01 AM</a> </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <div class="form-group form-check mb-3">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label white-color" for="exampleCheck1">Accept terms And Conditions</label>
@@ -287,7 +307,6 @@
     </div>
   </div>
 </main>
-
 <!--=============== Main End ==================-->
 
 
@@ -295,7 +314,7 @@
 <script src="<?php echo $js; ?>owl.carousel.min.js"></script>
 <script>
   $(document).ready(function() {
-    var owl = $('.owl-carousel');
+    var owl = $('.days-slider');
     owl.owlCarousel({
       dots: false,
       // center: true,
@@ -315,5 +334,12 @@
       }
     })
   })
+</script>
+<script>
+  $(document).ready(function() {
+    $(".day-block li a").click(function() {
+      $(this).toggleClass("active-day");
+    });
+  });
 </script>
 <?php include $tpl . 'end.php'; ?>

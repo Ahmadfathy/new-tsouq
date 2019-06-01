@@ -1,8 +1,5 @@
 <?php $pageTitle = 'Blank'; ?>
 <?php include 'init.php'; ?>
-<!-- Owl Stylesheets -->
-<link rel="stylesheet" href="<?php echo $css; ?>owl.carousel.min.css">
-<link rel="stylesheet" href="<?php echo $css; ?>owl.theme.default.min.css">
 
 <!--==============Inner Banner Start==============-->
 <?php include $tpl . 'pages-banner.php'; ?>
@@ -67,7 +64,7 @@
     </div>
     <div class="row">
       <div class="col-12 col-sm-12 offset-sm-0 col-md-6 offset-md-3">
-        <h4 class="text-primary text-capitalize font-weight-bold m-0 pt-3 text-center">Midecal Services</h4>
+        <h4 class="text-primary text-capitalize font-weight-bold m-0 pt-3 text-center">Commercial Services</h4>
         <p class="text-center my-4">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
         </p>
@@ -76,39 +73,33 @@
     <div class="row my-4">
       <div class="col-sm-8">
         <div class="inner__card shadow-sm my-4">
-          <div class="card-body services-provider">
-            <div class="row text-center">
-              <div class="col-sm-6 offset-sm-3">
-                <div class="rounded-img">
-                  <img src="<?php echo $img; ?>doc.jpg" alt="">
-                </div>
-                <div class="profile-details">
-                  <h5><a href="#">Dr. Ahmad Fathy Ayad</a></h5>
-                  <p>Lorem ipsum dolor sit amet elit.</p>
-                  <div class="rating">
-                    <div class="stars">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                    <h6> <span>500</span> Person Rating This Doctor </h6>
+          <div class="card-body profile-info">
+            <div class="bd-example">
+              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="<?php echo $img; ?>backgrounds/bg-1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="<?php echo $img; ?>backgrounds/bg-1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="<?php echo $img; ?>backgrounds/bg-1.jpg" class="d-block w-100" alt="...">
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 offset-sm-3">
-                <p class="text-primary profile-location">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Abbas El Aqqad, Nasr City, cairo
-                </p>
-              </div>
-              <div class="col-sm-3">
-                <div class="text-right">
-                  <a href="#"><img src="<?php echo $img; ?>g-map.png" width="40" alt=""></a>
-                </div>
-              </div>
             </div>
+          </div>
+        </div>
+        <div class="inner__card shadow-sm my-4">
+          <div class="card-body profile-desc">
+            <h5 class="text-primary box-title">Information About The Doctor</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam recusandae, saepe adipisci nostrum ducimus possimus hic deserunt, architecto dolorem quis voluptatem officiis ad provident debitis! Repellendus rem nihil nostrum laboriosam.</p>
           </div>
         </div>
         <div class="inner__card shadow-sm my-4">
@@ -177,143 +168,53 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="inner__card my-4 bg-main-color">
-          <div class="">
-            <div class="widget-title">
-              <h4 class="rouded-border">Booking Now</h4>
-            </div>
-            <form class="p-4" action="#" method="#">
-              <div class="form-row mb-3">
-                <div class="col-12">
-                  <div class="input-group">
-                    <textarea class="form-control form-control-lg" name="" id="" cols="30" rows="6" placeholder="About Your Problem?"></textarea>
-                  </div>
+        <div class="inner__card shadow-sm my-4">
+          <div class="card-body services-provider">
+            <div class="row text-center">
+              <div class="col-sm-8 offset-sm-2">
+                <div class="rounded-img">
+                  <img src="<?php echo $img; ?>doc.jpg" alt="">
                 </div>
               </div>
-              <div class="form-row mb-3">
-                <div class="col-12">
-                  <div class="input-group">
-                    <input class="form-control form-control-lg" id="" type="text" name="" aria-describedby="" placeholder="Address">
-                  </div>
+              <div class="col-sm-2">
+                <div class="text-right">
+                  <a href="#"><img src="<?php echo $img; ?>g-map.png" width="40" alt=""></a>
                 </div>
               </div>
-              <div class="form-row mb-3">
-                <div class="col-6">
-                  <div class="input-group">
-                    <input class="form-control form-control-lg" id="" type="text" name="" aria-describedby="" placeholder="Building Number">
+              <div class="col-12">
+                <div class="profile-details">
+                  <h5><a href="#">Dr. Ahmad Fathy Ayad</a></h5>
+                  <p>Lorem ipsum dolor sit amet elit.</p>
+                  <div class="rating">
+                    <div class="stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <h6> <span>500</span> Person Rating This Doctor </h6>
                   </div>
                 </div>
-                <div class="col-6">
-                  <div class="input-group">
-                    <input class="form-control form-control-lg" id="" type="text" name="" aria-describedby="" placeholder="Floor Number">
-                  </div>
-                </div>
+                <p class="text-primary profile-location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  Abbas El Aqqad, Nasr City, cairo
+                </p>
               </div>
-              <div class="form-row mb-3">
-                <div class="input-group mb-3">
-                  <input class="form-control form-control-lg" id="" type="text" name="" aria-describedby="" placeholder="Appartment Number">
-                </div>
+              <div class="col-12">
+                <button class="btn btn-primary btn-block btn-lg" type="submit">Browse The Products</button>
+              </div>
 
-                <div class="input-group mb-3">
-                  <h5 class="white-color text-center p-1 width-100">Choose The Date</h5>
-                </div>
-                <div class="input-group mb-3">
-                  <div class="owl-carousel owl-theme days-slider">
-                    <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group form-check mb-3">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label white-color" for="exampleCheck1">Accept terms And Conditions</label>
-                </div>
-                <div class="form-row mb-3">
-                  <div class="col-12">
-                    <button class="btn btn-blue-dark btn-block btn-lg" type="submit">Booking Now</button>
-                  </div>
-                </div>
-              </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </main>
-
 <!--=============== Main End ==================-->
 
 
 <?php include $tpl . 'footer.php'; ?>
-<script src="<?php echo $js; ?>owl.carousel.min.js"></script>
-<script>
-  $(document).ready(function() {
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
-      dots: false,
-      // center: true,
-      margin: 10,
-      nav: true,
-      loop: false,
-      responsive: {
-        0: {
-          items: 3
-        },
-        600: {
-          items: 3
-        },
-        1000: {
-          items: 3
-        }
-      }
-    })
-  })
-</script>
+
 <?php include $tpl . 'end.php'; ?>

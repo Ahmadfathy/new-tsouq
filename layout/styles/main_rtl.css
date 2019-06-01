@@ -28591,7 +28591,7 @@ ul.radio-btn li label{
   display: block;
   position: relative;
   font-weight: 500;
-  font-size: .85em;
+  /* font-size: .85em; */
   padding: 5px 15px 5px 0px;
   margin: 14px auto;
   height: 30px;
@@ -28732,7 +28732,7 @@ ul.radio-btn li input[type=radio]:checked ~ label{
   bottom: 0;
 }
 .bg-light-blue {
-  background-color: #fafeff;
+  background-color: #f3fdff;
 }
 .bg-main-color {
   background-color: #08c6f2;
@@ -29432,4 +29432,137 @@ img {
 
 .radio-success input[type="radio"]:checked + label::after {
   background-color: #5cb85c;
+}
+.messanger {
+  position: relative;
+}
+.messanger .absolute-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: block;
+  content: '';
+  z-index: 1000;
+}
+.messanger .messanger-name {
+   font-size: 1rem;
+}
+.messanger .messange-brief {
+  font-size: 0.75rem !important;
+  color: #929292;
+}
+.messanger .messanger-offline {
+  color: #ff3939;
+  font-size: 0.5rem !important;
+}
+.messanger .msg-date {
+  font-size: 0.75rem !important;
+  color: #c7c7c7;
+}
+.chat-box {
+  position: relative;
+  padding: 10px 10px 0 10px;
+  height: 650px;
+}
+.messages-box {
+  position: relative;
+  overflow: hidden;
+  height: 570px;
+}
+.reciever-box {
+overflow: hidden;
+}
+.reciever-img {
+  width: 16%;
+  float: right;
+}
+.reciever-img img {
+  border-radius: 50%;
+}
+.msg-box {
+  margin-bottom: 1rem;
+  width: 90%;
+  position: relative;
+}
+.sender-box {
+  float: left;
+  background: #FFF;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+  margin-left: 2rem;
+  width: 70%;
+}
+.text-box {
+  padding: 1.5rem;
+  font-size: 0.75rem;
+  border-radius: 7px;
+  position: relative;
+}
+.text-reciever-box {
+  float: right;
+  width: 75%;
+  background: #08c6f2;
+  color: #FFF;
+  margin-right: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+}
+.text-reciever-box:after {
+  position: absolute;
+  content: '';
+  top: 30%;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  background: #08c6f2;
+  transform: rotate(45deg);
+  z-index: 10;
+}
+.text-sender-box:after {
+  position: absolute;
+  content: '';
+  top: 30%;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  transform: rotate(45deg);
+  z-index: 10;
+}
+.typing-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.2rem;
+  background: #08c6f2;
+  overflow: hidden;
+  z-index: 999;
+}
+.typing-box .send-input {
+  width: 90%;
+  float: right;
+}
+.typing-box .send-input .text-area {
+  padding: 0.7rem 1rem;
+  border: 0;
+  border-radius: 20px;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 40px;
+}
+.typing-box .send-btn {
+  overflow: hidden;
+  width: 10%;
+  float: right;
+  text-align: center;
+}
+.typing-box .send-btn a{
+  color: #FFF;
+  display: block;
+  line-height: 40px;
+  font-size: 1.5rem;
 }

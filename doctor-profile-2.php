@@ -2,7 +2,7 @@
 <?php include 'init.php'; ?>
 
 <!--==============Inner Banner Start==============-->
-<?php include $tpl . 'pages-banner.php';?>
+<?php include $tpl . 'pages-banner.php'; ?>
 <!--==============Inner Banner End================-->
 
 

@@ -13,7 +13,7 @@
       <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
         <div class="inner__card shadow-sm">
           <div class="card-header">
-            <h4 class="text-primary text-capitalize font-weight-bold m-0 pt-3">e-commerce service provider</h4>
+            <h4 class="text-primary text-capitalize font-weight-bold m-0 pt-3">New User</h4>
           </div>
           <div class="card-body">
             <div class="container">
