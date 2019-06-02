@@ -21,14 +21,22 @@
                     <div class="form-row mb-3">
                       <div class="col-12">
                         <div class="input-group">
-                          <div class="input-group-prepend"><span class="input-group-text" id=""><span class="icon-male-user"></span></span></div>
-                          <input class="form-control form-control-lg" id="" type="email" placeholder="البريد الإلكتروني">
+                          <div class="input-group-prepend"><span class="input-group-text" id=""><span class="icon-key"></span></span></div>
+                          <input class="form-control form-control-lg" id="" type="password" placeholder="الرقم السري">
                         </div>
                       </div>
                     </div>
                     <div class="form-row mb-3">
                       <div class="col-12">
-                        <button class="btn btn-primary btn-block btn-lg" type="submit">إرسال الرمز الآن</button>
+                        <div class="input-group">
+                          <div class="input-group-prepend"><span class="input-group-text" id=""><span class="icon-key"></span></span></div>
+                          <input class="form-control form-control-lg" id="" type="password" placeholder="تأكيد الرقم السري">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row mb-3">
+                      <div class="col-12">
+                        <button class="btn btn-primary btn-block btn-lg" type="submit">تغيير الرقم الان</button>
                       </div>
                     </div>
                   </form>

@@ -13,6 +13,7 @@
 	<link href="<?php echo $css; ?>custom.css" rel="stylesheet" type="text/css">
 	<!-- scripts-->
 	<script src="<?php echo $js; ?>app.min.js" type="text/javascript"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAceZt91hCfdVh6oFAXQfNVRRdlXNJJgLs&amp;libraries=places&amp;language=en" type="text/javascript"></script>
 </head>
 
 <body>
@@ -67,7 +68,7 @@
 						<ul class="addons">
 							<li>
 								<a href="#" class="cart">
-									<img src="<?php echo $img; ?>icons/shop-cart-logo.png" alt=""> 
+									<img src="<?php echo $img; ?>icons/shop-cart-logo.png" alt="">
 								</a>
 							</li>
 							<li>
@@ -108,5 +109,3 @@
 
 	<div class="inner" id="login-page">
 		<div class="inner__wrapper">
-			
-
