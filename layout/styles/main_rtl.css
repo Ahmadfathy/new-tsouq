@@ -29566,3 +29566,41 @@ overflow: hidden;
   line-height: 40px;
   font-size: 1.5rem;
 }
+.product-box .product-info {
+  color: #0099bc;
+}
+.product-box .product-price {
+  font-size: 2rem
+}
+.product-box .cart-counter {
+  margin-bottom: 0.3rem;
+}
+.product-box .cart-counter button {
+  width: 32px;
+  height: 32px;                       
+  line-height: 32px;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0 5px;
+  background-color: #09c6f2;
+  color: #FFF;
+  border: 0;
+  border-radius: 50%;
+  outline: 0;
+}
+.product-box .cart-counter .count {
+  width: 36px;
+  height: 36px;                       
+  line-height: 36px;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #0099bc;
+  margin: 0 5px;
+  border: none;
+}
+.product-box .remove {
+  color: #e22a2a;
+  display: block;
+  padding-top: 15px;
+}
