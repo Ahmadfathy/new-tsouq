@@ -145,7 +145,7 @@ section {
 body {
   /* font-family:  Cairo,Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji ; */
   /* font-size: 1rem; */
-  font-size: 0.850rem;
+  font-size: 0.750rem;
   font-weight: 400;
   line-height: 1.25;
   color: #212529;
@@ -178,8 +178,11 @@ h6 {
 }
 
 p {
+  color: #A5A5A5;
   margin-top: 0;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 abbr[title],
@@ -470,36 +473,36 @@ h6,
 
 h1,
 .h1 {
-  font-size: 2.5rem
+  font-size: 1.750rem
 }
 
 h2,
 .h2 {
-  font-size: 2rem
+  font-size: 1.5rem
 }
 
 h3,
 .h3 {
-  font-size: 1.75rem
+  font-size: 1.25rem
 }
 
 h4,
 .h4 {
-  font-size: 1.5rem
+  font-size: 1rem
 }
 
 h5,
 .h5 {
-  font-size: 1.25rem
+  font-size: 0.85rem
 }
 
 h6,
 .h6 {
-  font-size: 1rem
+  font-size: 0.6rem
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300
 }
 
@@ -28390,7 +28393,8 @@ html[dir="rtl"] .flatpickr-months .flatpickr-month {
 .inner__card .card-body p {
   font-family: inherit;
   font-weight: 300;
-  font-size: 1rem
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .inner__card .card-footer {
@@ -28898,6 +28902,12 @@ a.red-color:hover {
 .font-sm .profile-details p,
 .font-sm .profile-details p i {
   font-size: 80% !important;
+}
+.font-md .profile-details h3,
+.font-md .profile-details h6, 
+.font-md .profile-details p, 
+.font-md .profile-details p i {
+    font-size: 90% !important;
 }
 .pl0 {
   padding-right: 0;
@@ -29603,4 +29613,17 @@ overflow: hidden;
   color: #e22a2a;
   display: block;
   padding-top: 15px;
+}
+.color-ff5891 {
+  color: #ff5891;
+}
+.color-0099bc {
+  color: #0099bc;
+}
+.product-view .rating .stars,
+.product-view .rating p {
+  display: inline-block
+}
+.product-view .rating p {
+  margin: 0 20px;
 }
