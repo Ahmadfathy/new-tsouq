@@ -1,4 +1,4 @@
-<?php $pageTitle = 'Blank'; ?>
+<?php $pageTitle = 'المطاعم و الكافيهات'; ?>
 <?php include 'init.php'; ?>
 
 
@@ -11,15 +11,15 @@
 <main class="inner__content bg-light-blue" role="main">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-12 offset-sm-0 col-lg-10 offset-lg-1">
+      <div class="col-12">
         <div class="inner__card shadow-sm">
           <div class="card-body">
             <form class="" action="javascript:void(0)" method="POST">
               <div class="form-row">
-                <div class="col-sm-5">
+                <div class="col-sm-3">
                   <div class="input-group">
                     <select class="form-control form-control-lg" name="" id="">
-                      <option value="" readonly>Choose The Country</option>
+                      <option value="" readonly>إختر الخدمة</option>
                       <option value="">Option 1</option>
                       <option value="">Option 2</option>
                       <option value="">Option 3</option>
@@ -28,10 +28,10 @@
                     </select>
                   </div>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-3">
                   <div class="input-group">
                     <select class="form-control form-control-lg" name="" id="">
-                      <option value="" readonly>Choose The City</option>
+                      <option value="" readonly>إختر الدولة</option>
                       <option value="">Option 1</option>
                       <option value="">Option 2</option>
                       <option value="">Option 3</option>
@@ -42,7 +42,31 @@
                 </div>
                 <div class="col-sm-2">
                   <div class="input-group">
-                    <button class="btn btn-primary btn-block btn-lg" type="submit">Show Results</button>
+                    <select class="form-control form-control-lg" name="" id="">
+                      <option value="" readonly>إختر المحافظة</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                      <option value="">Option 4</option>
+                      <option value="">Option 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="input-group">
+                    <select class="form-control form-control-lg" name="" id="">
+                      <option value="" readonly>إختر المدينة</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                      <option value="">Option 4</option>
+                      <option value="">Option 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="input-group">
+                    <button class="btn btn-primary btn-block btn-lg" type="submit">عرض النتائج</button>
                   </div>
                 </div>
               </div>
@@ -53,9 +77,9 @@
     </div>
     <div class="row">
       <div class="col-12 col-sm-12 offset-sm-0 col-md-6 offset-md-3">
-        <h4 class="text-primary text-capitalize font-weight-bold m-0 pt-3 text-center">Midecal Services</h4>
+        <h4 class="text-primary text-capitalize font-weight-bold m-0 pt-3 text-center">المطاعم و الكافيهات</h4>
         <p class="text-center my-4">
-          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+          هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم
         </p>
       </div>
     </div>
@@ -76,341 +100,542 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card shadow-sm my-2">
-          <div class="card-body font-sm">
-            <div class="row">
-              <div class="col-12">
-                <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
-              </div>
-              <div class="col-8">
-                <div class="profile-details">
-                  <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
-                  <p>Lorem ipsum dolor sit amet elit.</p>
-                  <div class="rating">
-                    <div class="stars">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+    <div id="grid-list" class="grid">
+      <div class="grid-view">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card shadow-sm my-2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
+                      <p>مشويات - حلوبات - اكل سورى</p>
+                      <div class="rating">
+                        <div class="rateYo"></div>
+                      </div>
                     </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="img">
+                      <img src="<?php echo $img; ?>img-1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="text-primary profile-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      عباس العقاد-مدينة نصر- القاهرة
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="img">
-                  <img src="<?php echo $img; ?>img-1.png" alt="">
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card shadow-sm my-2">
+              <div class="card-body font-sm">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
+                      <p>مشويات - حلوبات - اكل سورى</p>
+                      <div class="rating">
+                        <div class="rateYo"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="img">
+                      <img src="<?php echo $img; ?>img-1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="text-primary profile-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      عباس العقاد-مدينة نصر- القاهرة
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="col-12">
-                <p class="text-primary profile-location">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Abbas El Aqqad, Nasr City, cairo
-                </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card shadow-sm my-2">
+              <div class="card-body font-sm">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
+                      <p>مشويات - حلوبات - اكل سورى</p>
+                      <div class="rating">
+                        <div class="rateYo"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="img">
+                      <img src="<?php echo $img; ?>img-1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="text-primary profile-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      عباس العقاد-مدينة نصر- القاهرة
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card shadow-sm my-2">
+              <div class="card-body font-sm">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
+                      <p>مشويات - حلوبات - اكل سورى</p>
+                      <div class="rating">
+                        <div class="rateYo"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="img">
+                      <img src="<?php echo $img; ?>img-1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="text-primary profile-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      عباس العقاد-مدينة نصر- القاهرة
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card shadow-sm my-2">
+              <div class="card-body font-sm">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
+                      <p>مشويات - حلوبات - اكل سورى</p>
+                      <div class="rating">
+                        <div class="rateYo"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="img">
+                      <img src="<?php echo $img; ?>img-1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="text-primary profile-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      عباس العقاد-مدينة نصر- القاهرة
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card shadow-sm my-2">
+              <div class="card-body font-sm">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
+                      <p>مشويات - حلوبات - اكل سورى</p>
+                      <div class="rating">
+                        <div class="rateYo"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="img">
+                      <img src="<?php echo $img; ?>img-1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="text-primary profile-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      عباس العقاد-مدينة نصر- القاهرة
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card shadow-sm my-2">
+              <div class="card-body font-sm">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
+                      <p>مشويات - حلوبات - اكل سورى</p>
+                      <div class="rating">
+                        <div class="rateYo"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="img">
+                      <img src="<?php echo $img; ?>img-1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="text-primary profile-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      عباس العقاد-مدينة نصر- القاهرة
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card shadow-sm my-2">
+              <div class="card-body font-sm">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
+                      <p>مشويات - حلوبات - اكل سورى</p>
+                      <div class="rating">
+                        <div class="rateYo"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="img">
+                      <img src="<?php echo $img; ?>img-1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="text-primary profile-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      عباس العقاد-مدينة نصر- القاهرة
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card shadow-sm my-2">
+              <div class="card-body font-sm">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
+                      <p>مشويات - حلوبات - اكل سورى</p>
+                      <div class="rating">
+                        <div class="rateYo"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="img">
+                      <img src="<?php echo $img; ?>img-1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="text-primary profile-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      عباس العقاد-مدينة نصر- القاهرة
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="card shadow-sm my-2">
-          <div class="card-body font-sm">
-            <div class="row">
-              <div class="col-12">
-                <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
-              </div>
-              <div class="col-8">
-                <div class="profile-details">
-                  <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
-                  <p>Lorem ipsum dolor sit amet elit.</p>
-                  <div class="rating">
-                    <div class="stars">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+      <div class="list-view">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card shadow-sm my-2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <div class="row">
+                        <div class="col-9">
+                          <h5><a href="#">مطعم المدينة الدولي</a></h5>
+                          <p>مشويات - حلوبات - اكل سورى</p>
+                          <div class="rating">
+                            <div class="rateYo"></div>
+                            <h6> <span>500</span> شخص قيمو هذا المطعم </h6>
+                          </div>
+                        </div>
+                        <div class="col-3 pl0 text-center">
+                          <div class="rounded-img mb-2">
+                            <img src="<?php echo $img; ?>img-1.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <p class="text-primary profile-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        عباس العقاد-مدينة نصر- القاهرة
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="img">
-                  <img src="<?php echo $img; ?>img-1.png" alt="">
-                </div>
-              </div>
-              <div class="col-12">
-                <p class="text-primary profile-location">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Abbas El Aqqad, Nasr City, cairo
-                </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card shadow-sm my-2">
-          <div class="card-body font-sm">
-            <div class="row">
-              <div class="col-12">
-                <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
-              </div>
-              <div class="col-8">
-                <div class="profile-details">
-                  <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
-                  <p>Lorem ipsum dolor sit amet elit.</p>
-                  <div class="rating">
-                    <div class="stars">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+          <div class="col-sm-6">
+            <div class="card shadow-sm my-2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <div class="row">
+                        <div class="col-9">
+                          <h5><a href="#">مطعم المدينة الدولي</a></h5>
+                          <p>مشويات - حلوبات - اكل سورى</p>
+                          <div class="rating">
+                            <div class="rateYo"></div>
+                            <h6> <span>500</span> شخص قيمو هذا المطعم </h6>
+                          </div>
+                        </div>
+                        <div class="col-3 pl0 text-center">
+                          <div class="rounded-img mb-2">
+                            <img src="<?php echo $img; ?>img-1.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <p class="text-primary profile-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        عباس العقاد-مدينة نصر- القاهرة
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="img">
-                  <img src="<?php echo $img; ?>img-1.png" alt="">
-                </div>
-              </div>
-              <div class="col-12">
-                <p class="text-primary profile-location">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Abbas El Aqqad, Nasr City, cairo
-                </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card shadow-sm my-2">
-          <div class="card-body font-sm">
-            <div class="row">
-              <div class="col-12">
-                <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
-              </div>
-              <div class="col-8">
-                <div class="profile-details">
-                  <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
-                  <p>Lorem ipsum dolor sit amet elit.</p>
-                  <div class="rating">
-                    <div class="stars">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+          <div class="col-sm-6">
+            <div class="card shadow-sm my-2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <div class="row">
+                        <div class="col-9">
+                          <h5><a href="#">مطعم المدينة الدولي</a></h5>
+                          <p>مشويات - حلوبات - اكل سورى</p>
+                          <div class="rating">
+                            <div class="rateYo"></div>
+                            <h6> <span>500</span> شخص قيمو هذا المطعم </h6>
+                          </div>
+                        </div>
+                        <div class="col-3 pl0 text-center">
+                          <div class="rounded-img mb-2">
+                            <img src="<?php echo $img; ?>img-1.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <p class="text-primary profile-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        عباس العقاد-مدينة نصر- القاهرة
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="img">
-                  <img src="<?php echo $img; ?>img-1.png" alt="">
-                </div>
-              </div>
-              <div class="col-12">
-                <p class="text-primary profile-location">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Abbas El Aqqad, Nasr City, cairo
-                </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card shadow-sm my-2">
-          <div class="card-body font-sm">
-            <div class="row">
-              <div class="col-12">
-                <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
-              </div>
-              <div class="col-8">
-                <div class="profile-details">
-                  <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
-                  <p>Lorem ipsum dolor sit amet elit.</p>
-                  <div class="rating">
-                    <div class="stars">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+          <div class="col-sm-6">
+            <div class="card shadow-sm my-2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <div class="row">
+                        <div class="col-9">
+                          <h5><a href="#">مطعم المدينة الدولي</a></h5>
+                          <p>مشويات - حلوبات - اكل سورى</p>
+                          <div class="rating">
+                            <div class="rateYo"></div>
+                            <h6> <span>500</span> شخص قيمو هذا المطعم </h6>
+                          </div>
+                        </div>
+                        <div class="col-3 pl0 text-center">
+                          <div class="rounded-img mb-2">
+                            <img src="<?php echo $img; ?>img-1.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <p class="text-primary profile-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        عباس العقاد-مدينة نصر- القاهرة
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="img">
-                  <img src="<?php echo $img; ?>img-1.png" alt="">
-                </div>
-              </div>
-              <div class="col-12">
-                <p class="text-primary profile-location">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Abbas El Aqqad, Nasr City, cairo
-                </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card shadow-sm my-2">
-          <div class="card-body font-sm">
-            <div class="row">
-              <div class="col-12">
-                <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
-              </div>
-              <div class="col-8">
-                <div class="profile-details">
-                  <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
-                  <p>Lorem ipsum dolor sit amet elit.</p>
-                  <div class="rating">
-                    <div class="stars">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+          <div class="col-sm-6">
+            <div class="card shadow-sm my-2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <div class="row">
+                        <div class="col-9">
+                          <h5><a href="#">مطعم المدينة الدولي</a></h5>
+                          <p>مشويات - حلوبات - اكل سورى</p>
+                          <div class="rating">
+                            <div class="rateYo"></div>
+                            <h6> <span>500</span> شخص قيمو هذا المطعم </h6>
+                          </div>
+                        </div>
+                        <div class="col-3 pl0 text-center">
+                          <div class="rounded-img mb-2">
+                            <img src="<?php echo $img; ?>img-1.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <p class="text-primary profile-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        عباس العقاد-مدينة نصر- القاهرة
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="img">
-                  <img src="<?php echo $img; ?>img-1.png" alt="">
-                </div>
-              </div>
-              <div class="col-12">
-                <p class="text-primary profile-location">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Abbas El Aqqad, Nasr City, cairo
-                </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card shadow-sm my-2">
-          <div class="card-body font-sm">
-            <div class="row">
-              <div class="col-12">
-                <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
-              </div>
-              <div class="col-8">
-                <div class="profile-details">
-                  <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
-                  <p>Lorem ipsum dolor sit amet elit.</p>
-                  <div class="rating">
-                    <div class="stars">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+          <div class="col-sm-6">
+            <div class="card shadow-sm my-2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <div class="row">
+                        <div class="col-9">
+                          <h5><a href="#">مطعم المدينة الدولي</a></h5>
+                          <p>مشويات - حلوبات - اكل سورى</p>
+                          <div class="rating">
+                            <div class="rateYo"></div>
+                            <h6> <span>500</span> شخص قيمو هذا المطعم </h6>
+                          </div>
+                        </div>
+                        <div class="col-3 pl0 text-center">
+                          <div class="rounded-img mb-2">
+                            <img src="<?php echo $img; ?>img-1.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <p class="text-primary profile-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        عباس العقاد-مدينة نصر- القاهرة
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="img">
-                  <img src="<?php echo $img; ?>img-1.png" alt="">
-                </div>
-              </div>
-              <div class="col-12">
-                <p class="text-primary profile-location">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Abbas El Aqqad, Nasr City, cairo
-                </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card shadow-sm my-2">
-          <div class="card-body font-sm">
-            <div class="row">
-              <div class="col-12">
-                <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
-              </div>
-              <div class="col-8">
-                <div class="profile-details">
-                  <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
-                  <p>Lorem ipsum dolor sit amet elit.</p>
-                  <div class="rating">
-                    <div class="stars">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+          <div class="col-sm-6">
+            <div class="card shadow-sm my-2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
+                  </div>
+                  <div class="col-8">
+                    <div class="profile-details">
+                      <div class="row">
+                        <div class="col-9">
+                          <h5><a href="#">مطعم المدينة الدولي</a></h5>
+                          <p>مشويات - حلوبات - اكل سورى</p>
+                          <div class="rating">
+                            <div class="rateYo"></div>
+                            <h6> <span>500</span> شخص قيمو هذا المطعم </h6>
+                          </div>
+                        </div>
+                        <div class="col-3 pl0 text-center">
+                          <div class="rounded-img mb-2">
+                            <img src="<?php echo $img; ?>img-1.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <p class="text-primary profile-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        عباس العقاد-مدينة نصر- القاهرة
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="img">
-                  <img src="<?php echo $img; ?>img-1.png" alt="">
-                </div>
-              </div>
-              <div class="col-12">
-                <p class="text-primary profile-location">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Abbas El Aqqad, Nasr City, cairo
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card shadow-sm my-2">
-          <div class="card-body font-sm">
-            <div class="row">
-              <div class="col-12">
-                <img src="<?php echo $img; ?>img-2.jpg" class="mb-3 rounded-5" alt="">
-              </div>
-              <div class="col-8">
-                <div class="profile-details">
-                  <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
-                  <p>Lorem ipsum dolor sit amet elit.</p>
-                  <div class="rating">
-                    <div class="stars">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="img">
-                  <img src="<?php echo $img; ?>img-1.png" alt="">
-                </div>
-              </div>
-              <div class="col-12">
-                <p class="text-primary profile-location">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Abbas El Aqqad, Nasr City, cairo
-                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+
     <div class="row">
       <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2">
         <div class="text-center pagination-custom">
@@ -484,5 +709,19 @@
 
 <script src="<?php echo $js; ?>classie.js"></script>
 <script src="<?php echo $js; ?>modalEffects.js"></script>
+<script>
+  $('.switch-list').click(function() {
+    $('#grid-list').removeClass('grid').addClass('list');
+  });
+  $('.switch-grid').click(function() {
+    $('#grid-list').removeClass('list').addClass('grid');
+  });
+  $('.grid-list-switcher a').click(function() {
+    $(this).addClass('active').siblings('a').removeClass('active');
+  });
+  if ($('#grid-list').hasClass('list')) {
+    alert('ahmad hi')
+  }
+</script>
 
 <?php include $tpl . 'end.php'; ?>

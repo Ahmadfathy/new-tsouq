@@ -61,10 +61,24 @@
 							<li><a href="#">contact us</a></li>
 						</ul>
 					</div>
-					<div class="col-4 offset-4 col-sm-1 offset-lg-0">
-						<div class="navbar__login"><a class="btn btn-primary btn-sm btn-block" href="login.html">login</a></div>
+					<div class="col-4 offset-4 col-sm-2 offset-lg-0 p-l-r-5">
+						<!-- <div class="navbar__login">
+							<a class="btn btn-primary btn-sm btn-block" href="login.html">login</a>
+						</div> -->
+						<div class="navbar__login my-account">
+							<div class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<img src="<?php echo $img; ?>avatars/avatar-2.jpg" alt="" class="account-img">
+									حسابي
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">حسابي</a>
+									<a class="dropdown-item" href="#">تسجيل خروج</a>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-sm-2">
+					<div class="col-sm-1 p-l-r-5">
 						<ul class="addons">
 							<li>
 								<a href="#" class="cart">

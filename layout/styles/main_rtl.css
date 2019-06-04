@@ -7853,7 +7853,8 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: .5rem 1rem
+  padding: .5rem 1rem;
+  position: relative;
 }
 
 .nav-link:hover,
@@ -28934,6 +28935,7 @@ a.red-color:hover {
   width: 40px;
   height: 40px;
   text-align: center;
+  font-size: 1.2rem;
 }
 .pagination-custom li a i {
   font-size: 140%;
@@ -29812,3 +29814,25 @@ overflow: hidden;
   overflow: hidden;
 }
 /*============ //End Rating ============*/
+
+
+.pagination .fa-chevron-left:before {
+    content: "\f054";
+}
+.pagination .fa-chevron-right:before {
+    content: "\f053";
+}
+.my-account .account-img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.my-account .dropdown-toggle::after {
+  content: "\f078";
+  border: none;
+  font-family: 'FontAwesome';
+  position: absolute;
+  left: 0;
+  top: 40%;
+  color: #444;
+}

@@ -469,7 +469,6 @@
     $(this).addClass('active').siblings('a').removeClass('active');
   });
   if ($('#grid-list').hasClass('list')) {
-    alert('ahmad hi')
   }
 </script>
 
