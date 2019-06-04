@@ -1,6 +1,7 @@
 <?php $pageTitle = 'Blank'; ?>
 <?php include 'init.php'; ?>
 
+
 <!--==============Inner Banner Start==============-->
 <?php include $tpl . 'pages-banner.php'; ?>
 <!--==============Inner Banner End================-->
@@ -58,6 +59,23 @@
         </p>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-6">
+        <div class="float-left">
+          <a href="javascript:void(0)" class="btn-filer md-trigger" data-modal="modal-filter">
+            <i class="fas fa-filter"></i> فلتر البحث
+          </a>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="grid-list-switcher float-right">
+          <a href="javascript:void(0)" class="switch-grid active"><i class="fas fa-th"></i></a>
+          <a href="javascript:void(0)" class="switch-list"><i class="fas fa-th-list"></i></a>
+        </div>
+      </div>
+    </div>
+
     <div class="row">
       <div class="col-sm-4">
         <div class="card shadow-sm my-2">
@@ -422,7 +440,49 @@
 </main>
 <!--=============== Main End ==================-->
 
+<div class="md-modal md-effect" id="modal-filter">
+  <div class="md-content">
+    <div class="filter-popup">
+      <a href="javascript:void(0)" class="md-close">X</a>
+      <h5 class="title">فلتر نتائج البحث</h5>
+      <div class="options">
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox1" type="checkbox">
+          <label for="checkbox1">الأقرب إليك</label>
+        </div>
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox2" type="checkbox">
+          <label for="checkbox2">الأحدث</label>
+        </div>
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox3" type="checkbox">
+          <label for="checkbox3">الأعلي تقييم</label>
+        </div>
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox4" type="checkbox">
+          <label for="checkbox4">الأعلي سعر</label>
+        </div>
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox5" type="checkbox">
+          <label for="checkbox5">الأقل سعر</label>
+        </div>
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox6" type="checkbox">
+          <label for="checkbox6">المقترح</label>
+        </div>
+      </div>
+      <div class="filter-footer">
+        <button class="btn btn-primary" type="submit">مسح الفلتر</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="md-overlay"></div><!-- the overlay element -->
+
 
 <?php include $tpl . 'footer.php'; ?>
+
+<script src="<?php echo $js; ?>classie.js"></script>
+<script src="<?php echo $js; ?>modalEffects.js"></script>
 
 <?php include $tpl . 'end.php'; ?>
