@@ -28909,6 +28909,12 @@ a.red-color:hover {
 .font-md .profile-details p i {
     font-size: 90% !important;
 }
+.profile-details p {
+  margin: 0.3rem 0;
+}
+.rateYo {
+  margin-bottom: 0.4rem
+}
 .pl0 {
   padding-right: 0;
 }
@@ -28981,7 +28987,8 @@ a.red-color:hover {
 }
 
 .grid-list-switcher {
-  margin: 20px 0 10px;
+  /* margin: 20px 0 10px; */
+  display: inline-block;
 }
 .grid-list-switcher a {
   transition: all 0.5s ease-in-out;
@@ -29627,3 +29634,181 @@ overflow: hidden;
 .product-view .rating p {
   margin: 0 20px;
 }
+/*========Filter Modal ========*/
+
+.md-perspective,
+.md-perspective body {
+	height: 100%;
+	overflow: hidden;
+}
+
+.md-perspective body  {
+	background: #222;
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;
+	perspective: 600px;
+}
+
+.md-modal {
+	position: fixed;
+	top: 50%;
+	right: 0%;
+	width: auto;
+	height: auto;
+	z-index: 10000;
+	visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.md-show {
+	visibility: visible;
+}
+
+.md-overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	opacity: 0;
+	background: rgba(0,0,0,0.65);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.md-show ~ .md-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.md-effect{
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.md-effect .md-content {
+	-webkit-transform: translateY(-200%);
+	-moz-transform: translateY(-200%);
+	-ms-transform: translateY(-200%);
+	transform: translateY(-200%);
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	opacity: 0;
+}
+
+.md-show.md-effect .md-content {
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+	border-radius: 0 0 3px 3px;
+	opacity: 1;
+}
+.btn-filer {
+  padding: 10px 20px;
+  background-color: #FFF;
+  border: 1px solid #08c6f2;
+  border-radius: 5px;
+  display: inline-block;
+  /* margin: 20px 0 10px; */
+}
+.filter-popup {
+  background-color: #FFF;
+  border-radius: 3px;
+  position: relative;
+}
+.filter-popup .title {
+  text-align: center;
+  padding: 1rem;
+  color: #08c6f2;
+  border-bottom: 1px solid #EEE;
+}
+.filter-popup .options {
+  padding: 0.5rem 1.5rem;
+}
+.filter-popup .checkbox label {
+  color: #444;
+}
+.filter-popup .filter-footer {
+  padding: 0.7rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.filter-popup button.btn {
+  padding: 0.4rem 1.2rem;
+  border-radius: 0;
+
+}
+.filter-popup .form-check {
+  padding-right: 0.2rem;
+}
+.filter-popup .md-close {
+  position: absolute;
+  left: -17px;
+  top: -17px;
+  color: #FFF;
+  background-color: #08c6f2;
+  font-size: 22px;
+  z-index: 9;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 100;
+}
+/*============ //End Filter ============*/
+
+/*============ Start Rating ============*/
+.jq-ry-container {
+  position: relative;
+  padding: 0 5px;
+  line-height: 0;
+  display: block;
+  cursor: pointer;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  direction: ltr;
+}
+.jq-ry-container[readonly="readonly"] {
+  cursor: default;
+}
+.jq-ry-container > .jq-ry-group-wrapper {
+  position: relative;
+  width: 100%;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group {
+  position: relative;
+  line-height: 0;
+  z-index: 10;
+  white-space: nowrap;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group > svg {
+  display: inline-block;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-normal-group {
+  width: 100%;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-rated-group {
+  width: 0;
+  z-index: 11;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+/*============ //End Rating ============*/

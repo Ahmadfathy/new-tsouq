@@ -2,7 +2,7 @@
 <?php include 'init.php'; ?>
 
 <!--==============Inner Banner Start==============-->
-<?php include $tpl . 'pages-banner.php';?>
+<?php include $tpl . 'pages-banner.php'; ?>
 <!--==============Inner Banner End================-->
 
 
@@ -72,8 +72,15 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12">
-        <div class="grid-list-switcher">
+      <div class="col-6">
+        <div class="float-left">
+          <a href="javascript:void(0)" class="btn-filer md-trigger" data-modal="modal-filter">
+            <i class="fas fa-filter"></i> فلتر البحث
+          </a>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="grid-list-switcher float-right">
           <a href="javascript:void(0)" class="switch-grid active"><i class="fas fa-th"></i></a>
           <a href="javascript:void(0)" class="switch-list"><i class="fas fa-th-list"></i></a>
         </div>
@@ -96,13 +103,7 @@
                           <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
                           <p>Lorem ipsum dolor sit amet elit.</p>
                           <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
+                            <div class="rateYo"></div>
                             <p><span>500</span> Person Rating This Doctor </p>
                           </div>
                         </div>
@@ -136,13 +137,7 @@
                           <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
                           <p>Lorem ipsum dolor sit amet elit.</p>
                           <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
+                            <div class="rateYo"></div>
                             <p><span>500</span> Person Rating This Doctor </p>
                           </div>
                         </div>
@@ -176,13 +171,7 @@
                           <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
                           <p>Lorem ipsum dolor sit amet elit.</p>
                           <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
+                            <div class="rateYo"></div>
                             <p><span>500</span> Person Rating This Doctor </p>
                           </div>
                         </div>
@@ -222,18 +211,11 @@
                           <h5><a href="#">Dr. Ahmad Fathy Ayad</a></h5>
                           <p>Lorem ipsum dolor sit amet elit.</p>
                           <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
+                            <div class="rateYo"></div>
                             <h6> <span>500</span> Person Rating This Doctor </h6>
                           </div>
                         </div>
-                        <div class="col-2 pl0 text-center"> <a href="javascript:void(0)"
-                            class="wish-heart red-color">
+                        <div class="col-2 pl0 text-center"> <a href="javascript:void(0)" class="wish-heart red-color">
                             <i class="far fa-heart fa-2x"></i>
                           </a>
                         </div>
@@ -265,18 +247,11 @@
                           <h5><a href="#">Dr. Ahmad Fathy Ayad</a></h5>
                           <p>Lorem ipsum dolor sit amet elit.</p>
                           <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
+                            <div class="rateYo"></div>
                             <h6> <span>500</span> Person Rating This Doctor </h6>
                           </div>
                         </div>
-                        <div class="col-2 pl0 text-center"> <a href="javascript:void(0)"
-                            class="wish-heart red-color">
+                        <div class="col-2 pl0 text-center"> <a href="javascript:void(0)" class="wish-heart red-color">
                             <i class="far fa-heart fa-2x"></i>
                           </a>
                         </div>
@@ -308,18 +283,11 @@
                           <h5><a href="#">Dr. Ahmad Fathy Ayad</a></h5>
                           <p>Lorem ipsum dolor sit amet elit.</p>
                           <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
+                            <div class="rateYo"></div>
                             <h6> <span>500</span> Person Rating This Doctor </h6>
                           </div>
                         </div>
-                        <div class="col-2 pl0 text-center"> <a href="javascript:void(0)"
-                            class="wish-heart red-color">
+                        <div class="col-2 pl0 text-center"> <a href="javascript:void(0)" class="wish-heart red-color">
                             <i class="far fa-heart fa-2x"></i>
                           </a>
                         </div>
@@ -351,18 +319,11 @@
                           <h5><a href="#">Dr. Ahmad Fathy Ayad</a></h5>
                           <p>Lorem ipsum dolor sit amet elit.</p>
                           <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
+                            <div class="rateYo"></div>
                             <h6> <span>500</span> Person Rating This Doctor </h6>
                           </div>
                         </div>
-                        <div class="col-2 pl0 text-center"> <a href="javascript:void(0)"
-                            class="wish-heart red-color">
+                        <div class="col-2 pl0 text-center"> <a href="javascript:void(0)" class="wish-heart red-color">
                             <i class="far fa-heart fa-2x"></i>
                           </a>
                         </div>
@@ -394,18 +355,11 @@
                           <h5><a href="#">Dr. Ahmad Fathy Ayad</a></h5>
                           <p>Lorem ipsum dolor sit amet elit.</p>
                           <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
+                            <div class="rateYo"></div>
                             <h6> <span>500</span> Person Rating This Doctor </h6>
                           </div>
                         </div>
-                        <div class="col-2 pl0 text-center"> <a href="javascript:void(0)"
-                            class="wish-heart red-color">
+                        <div class="col-2 pl0 text-center"> <a href="javascript:void(0)" class="wish-heart red-color">
                             <i class="far fa-heart fa-2x"></i>
                           </a>
                         </div>
@@ -453,29 +407,70 @@
 </main>
 <!--=============== Main End ==================-->
 
+<div class="md-modal md-effect" id="modal-filter">
+  <div class="md-content">
+    <div class="filter-popup">
+      <a href="javascript:void(0)" class="md-close">X</a>
+      <h5 class="title">فلتر نتائج البحث</h5>
+      <div class="options">
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox1" type="checkbox">
+          <label for="checkbox1">الأقرب إليك</label>
+        </div>
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox2" type="checkbox">
+          <label for="checkbox2">الأحدث</label>
+        </div>
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox3" type="checkbox">
+          <label for="checkbox3">الأعلي تقييم</label>
+        </div>
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox4" type="checkbox">
+          <label for="checkbox4">الأعلي سعر</label>
+        </div>
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox5" type="checkbox">
+          <label for="checkbox5">الأقل سعر</label>
+        </div>
+        <div class="form-check checkbox mb-2">
+          <input id="checkbox6" type="checkbox">
+          <label for="checkbox6">المقترح</label>
+        </div>
+      </div>
+      <div class="filter-footer">
+        <button class="btn btn-primary" type="submit">مسح الفلتر</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="md-overlay"></div><!-- the overlay element -->
+
 
 <?php include $tpl . 'footer.php'; ?>
 
-  <script>
-    $(document).ready(function () {
-      $("a.wish-heart").click(function () {
-        $(this).toggleClass("active-red-color") & $(this).children('i.far').toggleClass('fas');
-      });
-    });
+<script src="<?php echo $js; ?>classie.js"></script>
+<script src="<?php echo $js; ?>modalEffects.js"></script>
 
-    $('.switch-list').click(function () {
-      $('#grid-list').removeClass('grid').addClass('list');
+<script>
+  $(document).ready(function() {
+    $("a.wish-heart").click(function() {
+      $(this).toggleClass("active-red-color") & $(this).children('i.far').toggleClass('fas');
     });
-    $('.switch-grid').click(function () {
-      $('#grid-list').removeClass('list').addClass('grid');
-    });
-    $('.grid-list-switcher a').click(function () {
-      $(this).addClass('active').siblings('a').removeClass('active');
-    });
-    if ($('#grid-list').hasClass('list')) {
-      alert('ahmad hi')
-    }
+  });
 
-  </script>
+  $('.switch-list').click(function() {
+    $('#grid-list').removeClass('grid').addClass('list');
+  });
+  $('.switch-grid').click(function() {
+    $('#grid-list').removeClass('list').addClass('grid');
+  });
+  $('.grid-list-switcher a').click(function() {
+    $(this).addClass('active').siblings('a').removeClass('active');
+  });
+  if ($('#grid-list').hasClass('list')) {
+    alert('ahmad hi')
+  }
+</script>
 
 <?php include $tpl . 'end.php'; ?>
