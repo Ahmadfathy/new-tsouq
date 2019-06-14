@@ -3,7 +3,7 @@
 
 
 <!--==============Inner Banner Start==============-->
-<?php include $tpl . 'pages-banner.php';?>
+<?php include $tpl . 'pages-banner.php'; ?>
 <!--==============Inner Banner End================-->
 
 
@@ -13,10 +13,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3 p-l-r-5">
-          <?php include $tpl . 'sidebar.php';?>
+          <?php include $tpl . 'sidebar.php'; ?>
         </div>
         <div class="col-sm-9">
-            
+
 
           <div class="row">
             <div class="col-sm-4 p-l-r-5">
@@ -29,17 +29,11 @@
                     <div class="col-8">
                       <div class="profile-details">
                         <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
-                          <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
-                          <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
-                          </div>
+                        <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
+                        <div class="rating">
+                          <div class="rateYo"></div>
                         </div>
+                      </div>
                     </div>
                     <div class="col-4">
                       <div class="img">
@@ -55,7 +49,7 @@
                   </div>
                 </div>
               </div>
-						</div>
+            </div>
             <div class="col-sm-4 p-l-r-5">
               <div class="card shadow-sm mb-4">
                 <div class="card-body font-sm p-1">
@@ -66,17 +60,11 @@
                     <div class="col-8">
                       <div class="profile-details">
                         <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
-                          <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
-                          <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
-                          </div>
+                        <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
+                        <div class="rating">
+                          <div class="rateYo"></div>
                         </div>
+                      </div>
                     </div>
                     <div class="col-4">
                       <div class="img">
@@ -92,7 +80,7 @@
                   </div>
                 </div>
               </div>
-						</div>
+            </div>
             <div class="col-sm-4 p-l-r-5">
               <div class="card shadow-sm mb-4">
                 <div class="card-body font-sm p-1">
@@ -103,17 +91,11 @@
                     <div class="col-8">
                       <div class="profile-details">
                         <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
-                          <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
-                          <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
-                          </div>
+                        <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
+                        <div class="rating">
+                          <div class="rateYo"></div>
                         </div>
+                      </div>
                     </div>
                     <div class="col-4">
                       <div class="img">
@@ -129,7 +111,7 @@
                   </div>
                 </div>
               </div>
-						</div>
+            </div>
             <div class="col-sm-4 p-l-r-5">
               <div class="card shadow-sm mb-4">
                 <div class="card-body font-sm p-1">
@@ -140,17 +122,11 @@
                     <div class="col-8">
                       <div class="profile-details">
                         <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
-                          <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
-                          <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
-                          </div>
+                        <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
+                        <div class="rating">
+                          <div class="rateYo"></div>
                         </div>
+                      </div>
                     </div>
                     <div class="col-4">
                       <div class="img">
@@ -166,7 +142,7 @@
                   </div>
                 </div>
               </div>
-						</div>
+            </div>
             <div class="col-sm-4 p-l-r-5">
               <div class="card shadow-sm mb-4">
                 <div class="card-body font-sm p-1">
@@ -177,17 +153,11 @@
                     <div class="col-8">
                       <div class="profile-details">
                         <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
-                          <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
-                          <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
-                          </div>
+                        <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
+                        <div class="rating">
+                          <div class="rateYo"></div>
                         </div>
+                      </div>
                     </div>
                     <div class="col-4">
                       <div class="img">
@@ -203,7 +173,7 @@
                   </div>
                 </div>
               </div>
-						</div>
+            </div>
             <div class="col-sm-4 p-l-r-5">
               <div class="card shadow-sm mb-4">
                 <div class="card-body font-sm p-1">
@@ -214,17 +184,11 @@
                     <div class="col-8">
                       <div class="profile-details">
                         <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
-                          <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
-                          <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
-                          </div>
+                        <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
+                        <div class="rating">
+                          <div class="rateYo"></div>
                         </div>
+                      </div>
                     </div>
                     <div class="col-4">
                       <div class="img">
@@ -240,7 +204,7 @@
                   </div>
                 </div>
               </div>
-						</div>
+            </div>
             <div class="col-sm-4 p-l-r-5">
               <div class="card shadow-sm mb-4">
                 <div class="card-body font-sm p-1">
@@ -251,17 +215,11 @@
                     <div class="col-8">
                       <div class="profile-details">
                         <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
-                          <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
-                          <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
-                          </div>
+                        <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
+                        <div class="rating">
+                          <div class="rateYo"></div>
                         </div>
+                      </div>
                     </div>
                     <div class="col-4">
                       <div class="img">
@@ -277,7 +235,7 @@
                   </div>
                 </div>
               </div>
-						</div>
+            </div>
             <div class="col-sm-4 p-l-r-5">
               <div class="card shadow-sm mb-4">
                 <div class="card-body font-sm p-1">
@@ -288,17 +246,11 @@
                     <div class="col-8">
                       <div class="profile-details">
                         <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
-                          <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
-                          <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
-                          </div>
+                        <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
+                        <div class="rating">
+                          <div class="rateYo"></div>
                         </div>
+                      </div>
                     </div>
                     <div class="col-4">
                       <div class="img">
@@ -314,7 +266,7 @@
                   </div>
                 </div>
               </div>
-						</div>
+            </div>
             <div class="col-sm-4 p-l-r-5">
               <div class="card shadow-sm mb-4">
                 <div class="card-body font-sm p-1">
@@ -325,17 +277,11 @@
                     <div class="col-8">
                       <div class="profile-details">
                         <h5><a href="javascript:void(0)">مطعم المدينة الدولي</a></h5>
-                          <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
-                          <div class="rating">
-                            <div class="stars">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                              <i class="far fa-star"></i>
-                            </div>
-                          </div>
+                        <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم</p>
+                        <div class="rating">
+                          <div class="rateYo"></div>
                         </div>
+                      </div>
                     </div>
                     <div class="col-4">
                       <div class="img">
@@ -351,7 +297,7 @@
                   </div>
                 </div>
               </div>
-						</div>
+            </div>
           </div>
 
           <div class="row">

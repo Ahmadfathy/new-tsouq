@@ -74,11 +74,7 @@
                     <div class="mb-3">
                       <h5 class="mt-0 mb-1 text-primary">احمد علي</h5>
                       <div class="rates float-right">
-                        <i class="far fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <i class="far fa-star"></i>
+                        <div class="rateYo"></div>
                       </div>
                     </div>
                     <form action="#" method="post">
@@ -100,11 +96,7 @@
                   <div class="media-body">
                     <h5 class="mt-0 mb-1 text-primary">احمد علي</h5>
                     <div class="rates">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+                      <div class="rateYo"></div>
                     </div>
                     <p>هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص.</p>
                   </div>
@@ -114,11 +106,7 @@
                   <div class="media-body">
                     <h5 class="mt-0 mb-1 text-primary">احمد علي</h5>
                     <div class="rates">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+                      <div class="rateYo"></div>
                     </div>
                     <p>هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص.</p>
                   </div>
@@ -128,11 +116,7 @@
                   <div class="media-body">
                     <h5 class="mt-0 mb-1 text-primary">احمد علي</h5>
                     <div class="rates">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <i class="far fa-star"></i>
+                      <div class="rateYo"></div>
                     </div>
                     <p>هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص.</p>
                   </div>
