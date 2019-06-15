@@ -9,6 +9,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title><?php getTitle() ?></title>
 	<link rel="icon" type="image/ico" href="<?php echo $img; ?>favicons/fav.ico" sizes="16x16">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="<?php echo $css; ?>main_rtl.css" rel="stylesheet" type="text/css">
 	<link href="<?php echo $css; ?>custom.css" rel="stylesheet" type="text/css">
 	<!-- scripts-->

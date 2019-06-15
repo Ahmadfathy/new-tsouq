@@ -1,7 +1,8 @@
 <?php $pageTitle = 'مقدم خدمة طبية'; ?>
 <?php include 'init.php'; ?>
 
-<!--==============Inner Banner Start==============-->
+
+ <!--==============Inner Banner Start==============-->
 <?php include $tpl . 'pages-banner.php'; ?>
 <!--==============Inner Banner End================-->
 
