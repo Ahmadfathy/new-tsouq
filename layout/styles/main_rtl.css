@@ -11700,9 +11700,12 @@ a.close.disabled {
   -ms-flex-pack: center;
   justify-content: center;
   padding-right: 0;
-  margin-left: 15%;
-  margin-right: 15%;
-  list-style: none
+  margin-left: 0;
+  margin-right: 0;
+  list-style: none;
+  background: rgba(0,0,0,0.6);
+  margin: 0;
+  padding: 0.5rem;
 }
 
 .carousel-indicators li {
@@ -11711,8 +11714,8 @@ a.close.disabled {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 12px;
+  height: 12px;
   margin-left: 3px;
   margin-right: 3px;
   text-indent: -999px;
@@ -11723,7 +11726,10 @@ a.close.disabled {
   border-bottom: 10px solid transparent;
   opacity: .5;
   -webkit-transition: opacity 0.6s ease;
-  transition: opacity 0.6s ease
+  transition: opacity 0.6s ease;
+  border-radius: 50%;
+  border: 2px solid #EEE;
+  background-color: transparent;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -11734,7 +11740,18 @@ a.close.disabled {
 }
 
 .carousel-indicators .active {
-  opacity: 1
+  opacity: 1;
+  position: relative;
+}
+.carousel-indicators .active:after {
+  position: absolute;
+  content:'';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  top: 2px;
+  right:2px;
+  background-color: #FFF;
 }
 
 .carousel-caption {
@@ -28840,11 +28857,13 @@ ul.radio-btn li input[type=radio]:checked ~ label{
 .day-block li {
   list-style: none;
   padding: 7px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
 }
 .day-block li a{
   border-bottom: 2px solid transparent;
 }
-.day-block li a.active-day {
+.day-block li.active-day {
   border-bottom: 2px solid #0199bc;
   color: #0199bc;
 }
@@ -28863,7 +28882,7 @@ ul.radio-btn li input[type=radio]:checked ~ label{
   font-size: 16px;
 }
 .owl-carousel {
-  direction: rtl;
+  direction: ltr;
 }
 .days-slider .owl-nav button {
   position: absolute;
@@ -29230,10 +29249,10 @@ img {
   height: 16px;
   right: 0;
   top: 0;
-  margin-right: -20px;
-  padding-right: 3px;
-  padding-top: 1px;
-  font-size: 11px;
+  margin-right: -6px;
+  /* padding-right: 3px; */
+  /* padding-top: 1px; */
+  font-size: 16px;
   color: #555555;
 }
 
@@ -29779,7 +29798,7 @@ overflow: hidden;
   position: relative;
   padding: 0 5px;
   line-height: 0;
-  display: block;
+  display: inline-block;
   cursor: pointer;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -29817,23 +29836,17 @@ overflow: hidden;
 
 
 .pagination .fa-chevron-left:before {
-    content: "\f054";
+  content: "\f054";
 }
 .pagination .fa-chevron-right:before {
-    content: "\f053";
+  content: "\f053";
 }
 .my-account .account-img{
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
-.icon::before {
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
+
 .my-account .dropdown-toggle::after {
   content: "\f078";
   border: none;
@@ -29970,4 +29983,38 @@ overflow: hidden;
 }
 .all-langs ul.radio-btn li input[type=radio]:checked ~ label {
   color: #777;
+}
+
+.send-msg {
+
+}
+.send-msg i {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #08c6f2;
+  color: #FFF;
+  font-size: 3rem;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+.send-msg small {
+  display: block; 
+  margin-top: 0.750rem;
+}
+.inner__card.border-rds-1  {
+  background-color: transparent;
+}
+.border-rds-1 {
+  border-radius: 1rem
+}
+.border-rds-1 .carousel-inner {
+  border-radius: 1rem
+}
+.border-rds-1 .carousel-item {
+  border-radius: 1rem
+}
+.border-rds-1 .carousel-indicators {
+  border-radius: 0 0 1rem 1rem
 }

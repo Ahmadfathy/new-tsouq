@@ -103,7 +103,7 @@
 		$(".rateYo").rateYo({
 			normalFill: "#EEE",
 			ratedFill: "#f2c200",
-			starWidth: "25px",
+			starWidth: "16px",
 			rtl: true
 		});
 

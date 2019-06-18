@@ -1,4 +1,4 @@
-<?php $pageTitle = 'Blank'; ?>
+<?php $pageTitle = 'الخدمات الطبية'; ?>
 <?php include 'init.php'; ?>
 <!-- Owl Stylesheets -->
 <link rel="stylesheet" href="<?php echo $css; ?>owl.carousel.min.css">
@@ -13,7 +13,7 @@
 <main class="inner__content bg-light-blue" role="main">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-12 offset-sm-0 col-lg-10 offset-lg-1">
+      <div class="col-12">
         <div class="inner__card shadow-sm">
           <div class="card-body">
             <form class="" action="javascript:void(0)" method="POST">
@@ -21,7 +21,7 @@
                 <div class="col-sm-3">
                   <div class="input-group">
                     <select class="form-control form-control-lg" name="" id="">
-                      <option value="" readonly>Choose The Specialization</option>
+                      <option value="" readonly>إختر الخدمة</option>
                       <option value="">Option 1</option>
                       <option value="">Option 2</option>
                       <option value="">Option 3</option>
@@ -33,7 +33,7 @@
                 <div class="col-sm-3">
                   <div class="input-group">
                     <select class="form-control form-control-lg" name="" id="">
-                      <option value="" readonly>Choose The Country</option>
+                      <option value="" readonly>إختر الدولة</option>
                       <option value="">Option 1</option>
                       <option value="">Option 2</option>
                       <option value="">Option 3</option>
@@ -42,10 +42,10 @@
                     </select>
                   </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                   <div class="input-group">
                     <select class="form-control form-control-lg" name="" id="">
-                      <option value="" readonly>Choose The City</option>
+                      <option value="" readonly>إختر المحافظة</option>
                       <option value="">Option 1</option>
                       <option value="">Option 2</option>
                       <option value="">Option 3</option>
@@ -54,9 +54,21 @@
                     </select>
                   </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                   <div class="input-group">
-                    <button class="btn btn-primary btn-block btn-lg" type="submit">Show Results</button>
+                    <select class="form-control form-control-lg" name="" id="">
+                      <option value="" readonly>إختر المدينة</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                      <option value="">Option 4</option>
+                      <option value="">Option 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="input-group">
+                    <button class="btn btn-primary btn-block btn-lg" type="submit">عرض النتائج</button>
                   </div>
                 </div>
               </div>
@@ -67,9 +79,9 @@
     </div>
     <div class="row">
       <div class="col-12 col-sm-12 offset-sm-0 col-md-6 offset-md-3">
-        <h4 class="text-primary text-capitalize font-weight-bold m-0 pt-3 text-center">Midecal Services</h4>
+        <h4 class="text-primary text-capitalize font-weight-bold m-0 pt-3 text-center">الخدمات الطبية</h4>
         <p class="text-center my-4">
-          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+          هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
         </p>
       </div>
     </div>
@@ -85,29 +97,39 @@
               </div>
               <div class="col-sm-9">
                 <div class="profile-details">
-                  <h5><a href="javascript:void(0)">Dr. Ahmad Fathy Ayad</a></h5>
-                  <p>Lorem ipsum dolor sit amet elit.</p>
                   <div class="row">
-                    <div class="col-7">
+                    <div class="col-sm-8">
+                      <h5><a href="javascript:void(0)">دكتور: أحمد فتحي عياد</a></h5>
+                      <p>Lorem ipsum dolor sit amet elit.</p>
                       <div class="rating">
-                        <div class="stars">
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fas fa-star-half-alt"></i>
-                          <i class="far fa-star"></i>
-                        </div>
+                        <div class="rateYo"></div>
                         <h6> <span>500</span> Person Rating This Doctor </h6>
                       </div>
                       <p class="text-primary profile-location">
                         <i class="fas fa-map-marker-alt"></i>
                         Abbas El Aqqad, Nasr City, cairo
                       </p>
+                      <h5 class="profile-price text-primary">سعر الكشف : 500جنيه </h5>
                     </div>
-                    <div class="col-5">
-                      <div class="text-right">
-                        <a href="javascript:void(0)"><img src="<?php echo $img; ?>g-map.png" width="40" alt=""></a>
-                        <h5 class="profile-price text-primary"> The Price : 500 Pound </h5>
+                    <div class="col-sm-4">
+                      <div class="float-right">
+                        <div class="rest-menu mb-3">
+                          <ul class="navbar__social">
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                          </ul>
+                        </div>
+                        <div class="text-right mb-2">
+                          <a href="#" class="send-msg">
+                            <i class="fas fa-comment-dots"></i>
+                            <small>إرسال رسالة</small>
+                          </a>
+                        </div>
+                        <div class="text-right">
+                          <a href="javascript:void(0)"><img src="<?php echo $img; ?>g-map.png" width="40" alt=""></a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -139,48 +161,59 @@
         </div>
         <div class="inner__card shadow-sm my-4">
           <div class="card-body profile-ratings">
-            <h5 class="text-primary box-title">The Services:</h5>
+            <h5 class="text-primary box-title">التقييمات:</h5>
             <ul class="list-unstyled">
-              <li class="media">
-                <img src="<?php echo $img; ?>user.png" style="width:80px ;height:80px" class="align-self-center mr-3" alt="...">
+              <li class="media mb-4">
+                <img src="<?php echo $img; ?>user.png" style="width:80px ;height:80px" class="mr-3" alt="...">
                 <div class="media-body">
-                  <h5 class="mt-0 mb-1 text-primary">Abdo Sha3ban</h5>
-                  <div class="rates">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                    <i class="far fa-star"></i>
+                  <div class="mb-3">
+                    <h5 class="mt-0 mb-1 text-primary">احمد علي</h5>
+                    <div class="rates float-right">
+                      <div class="rateYo"></div>
+                    </div>
                   </div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nemo, ipsum, veritatis cum cupiditate eos.</p>
+                  <form action="#" method="post">
+                    <div class="form-row mb-3">
+                      <div class="col-12">
+                        <textarea class="form-control form-control-lg" name="" id="" cols="30" rows="3" placeholder="أكتب تقييمك عن المنتج"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-row mb-3">
+                      <div class="col-12">
+                        <button class="float-right btn btn-primary" type="submit">أضف تعليقك</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </li>
+              <li class="media">
+                <img src="<?php echo $img; ?>user.png" width="80" height="80" class="align-self-center mr-3" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1 text-primary">احمد علي</h5>
+                  <div class="rates">
+                    <div class="rateYo"></div>
+                  </div>
+                  <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.</p>
                 </div>
               </li>
               <li class="media my-4">
-                <img src="<?php echo $img; ?>user.png" style="width:80px ;height:80px" class="align-self-center mr-3" alt="...">
+                <img src="<?php echo $img; ?>user.png" width="80" height="80" class="align-self-center mr-3" alt="...">
                 <div class="media-body">
-                  <h5 class="mt-0 mb-1 text-primary">Abdo Sha3ban</h5>
+                  <h5 class="mt-0 mb-1 text-primary">احمد علي</h5>
                   <div class="rates">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                    <i class="far fa-star"></i>
+                    <div class="rateYo"></div>
                   </div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nemo, ipsum, veritatis cum cupiditate eos.</p>
+                  <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.</p>
                 </div>
               </li>
               <li class="media">
-                <img src="<?php echo $img; ?>user.png" style="width:80px ;height:80px" class="align-self-center mr-3" alt="...">
+                <img src="<?php echo $img; ?>user.png" width="80" height="80" class="align-self-center mr-3" alt="...">
                 <div class="media-body">
-                  <h5 class="mt-0 mb-1 text-primary">Abdo Sha3ban</h5>
+                  <h5 class="mt-0 mb-1 text-primary">احمد علي</h5>
                   <div class="rates">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                    <i class="far fa-star"></i>
+                    <div class="rateYo"></div>
                   </div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nemo, ipsum, veritatis cum cupiditate eos.</p>
+                  <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.</p>
                 </div>
               </li>
             </ul>
@@ -195,23 +228,43 @@
             </div>
             <form class="p-4" action="javascript:void(0)" method="javascript:void(0)">
               <div class="form-row mb-3">
-
-                <div class="input-group mb-3">
+                <div class="input-group">
                   <input class="form-control form-control-lg badges-input" id="Patient_name" type="text" name="" aria-describedby="Patient_name" placeholder="Patient Name">
                 </div>
-
-                <div class="input-group mb-3">
+              </div>
+              <div class="form-row mb-3">
+                <div class="input-group">
                   <textarea class="form-control form-control-lg" name="" id="" cols="30" rows="6" placeholder="About Your Complain?"></textarea>
                 </div>
-
-                <div class="input-group mb-3">
-                  <h5 class="white-color text-center p-1 width-100">Choose The Date</h5>
+              </div>
+              <div class="form-row mb-3">
+                <div class="input-group">
+                  <h5 class="white-color text-center p-1 width-100">إختر المعاد</h5>
                 </div>
-
-                <div class="input-group mb-3">
+              </div>
+              <div class="form-row mb-3">
+                <div class="input-group">
                   <div class="owl-carousel owl-theme days-slider">
+                    <div class="item day-block">
+                      <ul>
+                        <li class="sp-day">Sunday</li>
+                        <li>10 PM</li>
+                        <li>11 PM</li>
+                        <li>12 AM</li>
+                        <li>01 AM</li>
+                      </ul>
+                    </div>
+                    <div class="item day-block">
+                      <ul>
+                        <li class="sp-day">Sunday</li>
+                        <li>10 PM</li>
+                        <li>11 PM</li>
+                        <li>12 AM</li>
+                        <li>01 AM</li>
+                      </ul>
+                    </div>
                     <div class="item">
-                      <div class="day-block">
+                      <div class="day-block day-3">
                         <ul>
                           <li class="sp-day">Sunday</li>
                           <li> <a href="javascript:void(0)">10 PM</a> </li>
@@ -222,7 +275,7 @@
                       </div>
                     </div>
                     <div class="item">
-                      <div class="day-block">
+                      <div class="day-block day-4">
                         <ul>
                           <li class="sp-day">Sunday</li>
                           <li> <a href="javascript:void(0)">10 PM</a> </li>
@@ -233,7 +286,7 @@
                       </div>
                     </div>
                     <div class="item">
-                      <div class="day-block">
+                      <div class="day-block day-5">
                         <ul>
                           <li class="sp-day">Sunday</li>
                           <li> <a href="javascript:void(0)">10 PM</a> </li>
@@ -244,7 +297,7 @@
                       </div>
                     </div>
                     <div class="item">
-                      <div class="day-block">
+                      <div class="day-block day-6">
                         <ul>
                           <li class="sp-day">Sunday</li>
                           <li> <a href="javascript:void(0)">10 PM</a> </li>
@@ -255,7 +308,7 @@
                       </div>
                     </div>
                     <div class="item">
-                      <div class="day-block">
+                      <div class="day-block day-7">
                         <ul>
                           <li class="sp-day">Sunday</li>
                           <li> <a href="javascript:void(0)">10 PM</a> </li>
@@ -265,41 +318,24 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li class="sp-day">Sunday</li>
-                          <li> <a href="javascript:void(0)">10 PM</a> </li>
-                          <li> <a href="javascript:void(0)">11 PM</a> </li>
-                          <li> <a href="javascript:void(0)">12 AM</a> </li>
-                          <li> <a href="javascript:void(0)">01 AM</a> </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li class="sp-day">Sunday</li>
-                          <li> <a href="javascript:void(0)">10 PM</a> </li>
-                          <li> <a href="javascript:void(0)">11 PM</a> </li>
-                          <li> <a href="javascript:void(0)">12 AM</a> </li>
-                          <li> <a href="javascript:void(0)">01 AM</a> </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="form-group form-check mb-3">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label white-color" for="exampleCheck1">Accept terms And Conditions</label>
-                </div>
-                <div class="form-row mb-3">
-                  <div class="col-12">
-                    <button class="btn btn-blue-dark btn-block btn-lg" type="submit">Booking Now</button>
                   </div>
                 </div>
               </div>
+              <div class="form-row mb-3">
+                <div class="col-12">
+                  <div class="form-check form-check-inline checkbox">
+                    <input id="checkbox1" type="checkbox">
+                    <label for="checkbox1"><a class="white-color" href="polices-condition.php">أوافق على سياسة الشروط و الأحكام</a></label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row mb-3">
+                <div class="col-12">
+                  <button class="btn btn-blue-dark btn-block btn-lg" type="submit">إحجز الآن</button>
+                </div>
+              </div>
+
+
             </form>
           </div>
         </div>
@@ -337,8 +373,12 @@
 </script>
 <script>
   $(document).ready(function() {
-    $(".day-block li a").click(function() {
-      $(this).toggleClass("active-day");
+    $(".day-block li").click(function() {
+      $(this).addClass('active-day').siblings().removeClass('active-day');
+    });
+    $(".day-block").click(function() {
+      $("p").eq(0).css("background-color", "yellow");
+      $(this).addClass('active-day').siblings().removeClass('active-day');
     });
   });
 </script>

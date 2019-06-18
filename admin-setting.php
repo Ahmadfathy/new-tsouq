@@ -16,8 +16,6 @@
           <?php include $tpl . 'sidebar.php'; ?>
         </div>
         <div class="col-sm-9">
-
-
           <div class="inner__card shadow-sm">
             <div class="card-body">
               <div class="row">
