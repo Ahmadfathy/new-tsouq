@@ -54,7 +54,9 @@
                       <li class="col-6">
                         <input type="radio" id="option-1" name="gender">
                         <label for="option-1">دكر</label>
-                        <div class="check"></div>
+                        <div class="check">
+                          <div class="inside"></div>
+                        </div>
                       </li>
                       <li class="col-6">
                         <input type="radio" id="option-2" name="gender">

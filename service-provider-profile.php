@@ -259,52 +259,344 @@
               <div class="form-row mb-3">
                 <div class="input-group mb-3">
                   <div class="owl-carousel owl-theme days-slider">
+                    <div class="item day-block">
+                      <ul class="">
+                        <li class="sp-day">Sunday</li>
+                        <li>
+                          <div class="radiobtn">
+                            <input type="radio" id="1_option-1" name="timing1" value="" />
+                            <label for="1_option-1">12 AM</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="radiobtn">
+                            <input type="radio" id="1_option-2" name="timing1" value="" />
+                            <label for="1_option-2">01 AM</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="radiobtn">
+                            <input type="radio" id="1_option-3" name="timing1" value="" />
+                            <label for="1_option-3">02 AM</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="radiobtn">
+                            <input type="radio" id="1_option-4" name="timing1" value="" />
+                            <label for="1_option-4">04 AM</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="radiobtn">
+                            <input type="radio" id="1_option-5" name="timing1" value="" />
+                            <label for="1_option-5">05 AM</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="radiobtn">
+                            <input type="radio" id="1_option-6" name="timing1" value="" />
+                            <label for="1_option-6">06 AM</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="radiobtn">
+                            <input type="radio" id="1_option-7" name="timing1" value="" />
+                            <label for="1_option-7">07 AM</label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                      <div class="day-block day-3">
+                        <ul class="">
+                          <li class="sp-day">Sunday</li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="2_option-1" name="timing1" value="" />
+                              <label for="2_option-1">12 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="2_option-2" name="timing1" value="" />
+                              <label for="2_option-2">01 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="2_option-3" name="timing1" value="" />
+                              <label for="2_option-3">02 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="2_option-4" name="timing1" value="" />
+                              <label for="2_option-4">04 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="2_option-5" name="timing1" value="" />
+                              <label for="2_option-5">05 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="2_option-6" name="timing1" value="" />
+                              <label for="2_option-6">06 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="2_option-7" name="timing1" value="" />
+                              <label for="2_option-7">07 AM</label>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="item ">
+                      <div class="day-block day-3">
+                        <ul class="">
+                          <li class="sp-day">Tuesday</li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="3_option-1" name="timing1" value="" />
+                              <label for="3_option-1">12 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="3_option-2" name="timing1" value="" />
+                              <label for="3_option-2">01 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="3_option-3" name="timing1" value="" />
+                              <label for="3_option-3">02 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="3_option-4" name="timing1" value="" />
+                              <label for="3_option-4">04 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="3_option-5" name="timing1" value="" />
+                              <label for="3_option-5">05 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="3_option-6" name="timing1" value="" />
+                              <label for="3_option-6">06 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="3_option-7" name="timing1" value="" />
+                              <label for="3_option-7">07 AM</label>
+                            </div>
+                          </li>
                         </ul>
                       </div>
                     </div>
                     <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                      <div class="day-block day-5">
+                        <ul class="">
+                          <li class="sp-day">Sunday</li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="4_option-1" name="timing1" value="" />
+                              <label for="4_option-1">12 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="4_option-2" name="timing1" value="" />
+                              <label for="4_option-2">01 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="4_option-3" name="timing1" value="" />
+                              <label for="4_option-3">02 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="4_option-4" name="timing1" value="" />
+                              <label for="4_option-4">04 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="4_option-5" name="timing1" value="" />
+                              <label for="4_option-5">05 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="4_option-6" name="timing1" value="" />
+                              <label for="4_option-6">06 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="4_option-7" name="timing1" value="" />
+                              <label for="4_option-7">07 AM</label>
+                            </div>
+                          </li>
                         </ul>
                       </div>
                     </div>
                     <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                      <div class="day-block day-4">
+                        <ul class="">
+                          <li class="sp-day">Sunday</li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="5_option-1" name="timing1" value="" />
+                              <label for="5_option-1">12 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="5_option-2" name="timing1" value="" />
+                              <label for="5_option-2">01 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="5_option-3" name="timing1" value="" />
+                              <label for="5_option-3">02 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="5_option-4" name="timing1" value="" />
+                              <label for="5_option-4">04 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="5_option-5" name="timing1" value="" />
+                              <label for="5_option-5">05 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="5_option-6" name="timing1" value="" />
+                              <label for="5_option-6">06 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="5_option-7" name="timing1" value="" />
+                              <label for="5_option-7">07 AM</label>
+                            </div>
+                          </li>
                         </ul>
                       </div>
                     </div>
                     <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                      <div class="day-block day-6">
+                        <ul class="">
+                          <li class="sp-day">Sunday</li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="6_option-1" name="timing1" value="" />
+                              <label for="6_option-1">12 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="6_option-2" name="timing1" value="" />
+                              <label for="6_option-2">01 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="6_option-3" name="timing1" value="" />
+                              <label for="6_option-3">02 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="6_option-4" name="timing1" value="" />
+                              <label for="6_option-4">04 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="6_option-5" name="timing1" value="" />
+                              <label for="6_option-5">05 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="6_option-6" name="timing1" value="" />
+                              <label for="6_option-6">06 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="6_option-7" name="timing1" value="" />
+                              <label for="6_option-7">07 AM</label>
+                            </div>
+                          </li>
                         </ul>
                       </div>
                     </div>
                     <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="day-block">
-                        <ul>
-                          <li> <a href="#">Sunday <br> From 10 AM</a> </li>
+                      <div class="day-block day-7">
+                        <ul class="">
+                          <li class="sp-day">Sunday</li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="7_option-1" name="timing1" value="" />
+                              <label for="7_option-1">12 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="7_option-2" name="timing1" value="" />
+                              <label for="7_option-2">01 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="7_option-3" name="timing1" value="" />
+                              <label for="7_option-3">02 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="7_option-4" name="timing1" value="" />
+                              <label for="7_option-4">04 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="7_option-5" name="timing1" value="" />
+                              <label for="7_option-5">05 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="7_option-6" name="timing1" value="" />
+                              <label for="7_option-6">06 AM</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radiobtn">
+                              <input type="radio" id="7_option-7" name="timing1" value="" />
+                              <label for="7_option-7">07 AM</label>
+                            </div>
+                          </li>
                         </ul>
                       </div>
                     </div>
