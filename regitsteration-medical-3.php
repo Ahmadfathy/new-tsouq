@@ -75,7 +75,8 @@
                         </div>
                       </div>
                     </div>
-                    <div class="form-row mb-3">
+
+                    <!-- <div class="form-row mb-3">
                       <div class="col-11">
                         <div class="input-group">
                           <div class="input-group-prepend"><span class="input-group-text" id="registeration_input_times_of_work_prepend"><span class="icon-calendar"></span></span></div>
@@ -86,7 +87,37 @@
                         <div class="badges-add-more"><i class="fas fa-plus"></i></div>
                       </div>
                       <div class="col-12 badges-container"></div>
+                    </div> -->
+                    <div class="form-row mb-3" id="datepairExample">
+                      <div class="col-5">
+                        <div class="input-group">
+                          <div class="input-group-prepend"><span class="input-group-text"><span class="icon-calendar"></span></span></div>
+                          <select class="form-control form-control-lg" name="select-day" id="select-day">
+                            <option value="0" readonly>إختر اليوم</option>
+                            <option value="السبت">السبت</option>
+                            <option value="الأحد">الأحد</option>
+                            <option value="الإثنين">الإثنين</option>
+                            <option value="الثلاثاء">الثلاثاء</option>
+                            <option value="الأربعاء">الأربعاء</option>
+                            <option value="الخميس">الخميس</option>
+                            <option value="الجمعة">الجمعة</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <input id="input1" type="text" class="form-control form-control-lg time start" placeholder="من الساعة " value="" />
+                      </div>
+                      <div class="col-3">
+                        <input id="input2" type="text" class="form-control form-control-lg time end" placeholder="إلي الساعة " value="" />
+                      </div>
+                      <div class="col-1 d-flex align-items-center justify-content-center">
+                        <div class="badges-add-more" id="btn"><i class="fas fa-plus"></i></div>
+                        <!-- <a href="javascript:void(0)" id="btn">click</a> -->
+                      </div>
+                      <div class="col-12 badges-container badges-container_custom">
+                      </div>
                     </div>
+
                     <div class="form-row mb-3">
                       <div class="col-10">
                         <div class="input-group">
@@ -145,5 +176,34 @@
 
 
 <?php include $tpl . 'footer.php'; ?>
+
+<script src="<?php echo $js; ?>jquery.timepicker.min.js"></script>
+<script src="http://jonthornton.github.io/Datepair.js/dist/datepair.js"></script>
+<script src="http://jonthornton.github.io/Datepair.js/dist/jquery.datepair.js"></script>
+<script>
+  $('#datepairExample .time').timepicker({
+    'showDuration': true,
+    'timeFormat': 'g:ia'
+  });
+
+  $('#datepairExample').datepair();
+
+  $("#btn").click(function() {
+
+    var cooseDay = $("#select-day").change().val();
+    var timeFrom = $("#input1").change().val();
+    var timeTo = $("#input2").change().val();
+
+
+    $(".badges-container_custom").append('<div class="badge_custom badge badge-primary">' +
+      '<span class="select-day"> ' + cooseDay + ' </span>' + ' من ' +
+      '<span class="from_time"> ' + timeFrom + ' </span>' + ' إلي' +
+      '<span class="to_time"> ' + timeTo + ' </span> ' + '</div>');
+
+    $("#select-day").change().val("");
+    $("#input1").val("");
+    $("#input2").val("");
+  });
+</script>
 
 <?php include $tpl . 'end.php'; ?>
