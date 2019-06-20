@@ -7,11 +7,11 @@
 
 
 <!--==============	Main Start ================-->
-<main class="inner__content" role="main">
+<main class="inner__content pm-0" role="main">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="inner__card shadow-sm">
+        <div class="inner__card shadow-sm z-index-100">
           <div class="card-body">
             <form class="" action="javascript:void(0)" method="POST">
               <div class="form-row">
@@ -75,10 +75,17 @@
       </div>
     </div>
   </div>
+  <section id="googleMapRow">
+    <div id="mapBox"></div>
+  </section>
 </main>
 <!--=============== Main End ==================-->
 
 
 <?php include $tpl . 'footer.php'; ?>
+
+<!--Google Map JS-->
+<!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+<script src="<?php echo $js; ?>google-map.js"></script>
 
 <?php include $tpl . 'end.php'; ?>

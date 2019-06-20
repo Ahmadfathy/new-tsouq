@@ -55,20 +55,152 @@
 <section id="home-search">
   <div class="container">
     <div class="row">
-      <div class="col-10 offset-1 col-md-8 offset-md-2">
+      <div class="col-12">
         <div class="card-search shadow-sm">
           <div class="card-body">
             <form class="form-inline" action="#" metho="POST">
-              <div class="form-row w-100">
-                <div class="input-group input-group-lg col-12 col-md-5">
-                  <div class="input-group-prepend"><span class="input-group-text icon-placeholder" id="choose-country"></span></div>
-                  <input class="form-control" type="text" placeholder="Choose Country." aria-label="search using country" aria-describedby="choose-country">
+              <div class="form-row w-100 normal-search">
+                <div class="col-sm-3">
+                  <div class="input-group">
+                    <div class="input-group-prepend"><span class="input-group-text icon-placeholder"></span></div>
+                    <select class="form-control form-control-lg" name="" id="">
+                      <option value="" readonly>إختر الدولة</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                      <option value="">Option 4</option>
+                      <option value="">Option 5</option>
+                    </select>
+                  </div>
                 </div>
-                <div class="input-group input-group-lg col-12 col-md-4">
-                  <input class="form-control w-100" type="text" aria-describedby="choose-city" aria-label="search using city" placeholder="Choose City.">
+                <div class="col-sm-3">
+                  <div class="input-group">
+                    <div class="input-group-prepend"><span class="input-group-text icon-placeholder"></span></div>
+                    <select class="form-control form-control-lg" name="" id="">
+                      <option value="" readonly>إختر المحافظة</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                      <option value="">Option 4</option>
+                      <option value="">Option 5</option>
+                    </select>
+                  </div>
                 </div>
-                <div class="input-group col-12 col-md-3">
-                  <button class="btn btn-primary btn-block text-capitalize" type="submit">see results</button>
+                <div class="col-sm-3">
+                  <div class="input-group">
+                    <div class="input-group-prepend"><span class="input-group-text icon-placeholder"></span></div>
+                    <select class="form-control form-control-lg" name="" id="">
+                      <option value="" readonly>إختر المدينة</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                      <option value="">Option 4</option>
+                      <option value="">Option 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="input-group">
+                        <button class="btn btn-primary btn-block btn-lg" type="submit">عرض النتائج</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="input-group">
+                        <a href="javascript:void(0)" class="btn btn-primary btn-block btn-lg advanced-search-btn">بحث متقدم</a>
+                        <!-- <button class="btn btn-primary btn-block btn-lg" type="submit">عرض النتائج</button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row w-100 advanced-search hidden-search">
+                <div class="col-sm-4">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend"><span class="input-group-text icon-placeholder"></span></div>
+                    <select class="form-control form-control-lg" name="" id="">
+                      <option value="" readonly>إختر المحافظة</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                      <option value="">Option 4</option>
+                      <option value="">Option 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend"><span class="input-group-text icon-placeholder"></span></div>
+                    <select class="form-control form-control-lg" name="" id="">
+                      <option value="" readonly>إختر المدينة</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                      <option value="">Option 4</option>
+                      <option value="">Option 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="input-group ">
+                    <a href="javascript:void(0)" class="btn btn-primary btn-block btn-lg normal-search-btn">بحث عادي</a>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="input-group mb-3">
+                    <select class="form-control form-control-lg" name="" id="">
+                      <option value="" readonly>نوع البحث</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                      <option value="">Option 4</option>
+                      <option value="">Option 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="input-group mb-3">
+                    <div class="form-row w-100">
+                      <div class="col-2">
+                        <h5 class="text-primary mt-3">السعر</h5>
+                      </div>
+                      <div class="col-10">
+                        <div class="price-range-slider">
+                          <input data-addui='slider' data-min='10' data-max='100' data-range='true' value='50' />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="input-group mb-3">
+                    <select class="form-control form-control-lg" name="" id="">
+                      <option value="" readonly>فلاتر أخري</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                      <option value="">Option 4</option>
+                      <option value="">Option 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-8">
+                  <div class="input-group mb-3">
+                    <select class="form-control form-control-lg" name="" id="">
+                      <option value="" readonly>الأقسام</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                      <option value="">Option 4</option>
+                      <option value="">Option 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="input-group">
+                    <button class="btn btn-primary btn-block btn-lg" type="submit">عرض النتائج</button>
+                  </div>
                 </div>
               </div>
             </form>
@@ -459,5 +591,24 @@
 
 
 <?php include $tpl . 'footer.php'; ?>
+
+<script>
+  $(document).ready(function() {
+
+    $(".advanced-search-btn").click(function() {
+      $(".normal-search").addClass('hidden-search');
+      $(".advanced-search").removeClass('hidden-search');
+    });
+
+    $(".normal-search-btn").click(function() {
+      $(".advanced-search").addClass('hidden-search');
+      $(".normal-search").removeClass('hidden-search');
+    });
+
+  });
+</script>
+
+<script src="<?php echo $js; ?>Obj.min.js"></script>
+<script src="<?php echo $js; ?>addSlider.js"></script>
 
 <?php include $tpl . 'end.php'; ?>
